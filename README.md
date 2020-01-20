@@ -1,7 +1,7 @@
 # Fireboss
 	Es un estimador de proyectos multi-idioma
 
-# Idiomas soportados
+# Idiomas soportados (Default en-US)
 	en-US
 	es-AR
 	es-ES
