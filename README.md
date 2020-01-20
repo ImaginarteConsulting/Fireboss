@@ -8,11 +8,17 @@
 	es-MX
 	es-419
 
+# Guardado de datos
+	Lo realiza en formato XML
+
 # 3 tipos de controles
 	- OptionBool (Si es TRUE selecciona el ponderado, sinó no lo aplica)
+		* Son preguntas de sí o no, ejemplo: ¿Requiere documentación? ¿Cubre carga FTP? ¿Necesita envio de mails?
 	- Number (Multiplica el ponderado por el número que elijas)
+		* Son preguntas de cantidad, ejemplo: ¿Con cuantas vistas interactúa? ¿Con cuantos navegadores interactua el robot? ¿Cantidad de reuniones?
 	- Percent (Es un selector que va atado directo al ponderado de 0 a 500%)
 		500% en un día de 8 horas, equivale a 5 días.
+		* Casos muy extraños, ejemplo: Complejidad de pasos, complejidad de ambiente, complejidad de reglas de negocio, cosas un tanto relativas que pueden afectar al costo y duración de un proyecto. Otro valor que puede contemplar el percent es cuanto tiempo va a llevar la integración de módulos si se paraleliza un trabajo.
 
 # ¿Cómo está compuesto?
 	En la configuración se realiza la configuración de los templates, guardado y apertura, además de situar el About US.
